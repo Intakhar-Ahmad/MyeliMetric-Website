@@ -1,0 +1,2 @@
+const menuBtn=document.querySelector('.menu-btn');const nav=document.querySelector('.nav-links');if(menuBtn&&nav){menuBtn.addEventListener('click',()=>{nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',nav.classList.contains('open'))});}
+document.querySelectorAll('[data-copy-citation]').forEach(btn=>btn.addEventListener('click',async()=>{const text=document.querySelector('#citation-text')?.innerText||'';try{await navigator.clipboard.writeText(text);const old=btn.textContent;btn.textContent='Copied';setTimeout(()=>btn.textContent=old,1600)}catch(e){}}));
