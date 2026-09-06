@@ -24,21 +24,7 @@ Professional GitHub Pages website for **MyeliMetric-V2**.
 - `docs/` — Word manual and V2 validation document
 - `examples/` — example CTL/EXP data and example output
 
-## Publish with GitHub Pages
-
-1. Create the GitHub repository **MyeliMetric-Website** under `Intakhar-Ahmad`.
-2. Upload all files and folders from this package to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose branch **main** and folder **/(root)**, then save.
-6. After deployment, the site should be available at:
-   `https://intakhar-ahmad.github.io/MyeliMetric-Website/`
-
 ## Standalone app download
-
-Do **not** put the large standalone Windows build directly in the Pages website repository. Upload it to **GitHub Releases** in the software repository.
-
-Recommended release asset name:
 
 `MyeliMetric_v2_Windows_Standalone.zip`
 
@@ -46,16 +32,6 @@ The website's main download buttons point to:
 
 `https://github.com/Intakhar-Ahmad/NeuroMyelin-G-Ratio-Analysis-Toolkit/releases/latest`
 
-This means the website does not need to be edited whenever a newer release is uploaded.
-
-## Before publishing
-
-- Upload and test the final Windows standalone ZIP in GitHub Releases.
-- Confirm that `MyeliMetric.exe` works on a separate 64-bit Windows computer without Python installed.
-- Confirm the Word manual downloads correctly.
-- Confirm the example Excel files download correctly.
-- Check every page on desktop and mobile.
-
 ## Citation
 
-Ahmad I, Chowdhury FS, Boullerne AI, Gow A, Feinstein DL. MyeliMetric: A Python-Based Toolbox for Standardized G-Ratio Analysis of Axon-Myelin Integrity. ASN Neuro. 2026;18(1):2603411. doi:10.1080/17590914.2025.2603411.
+Ahmad I, Chowdhury FS, Boullerne AI, Gow A, Feinstein DL. MyeliMetric: A Python-Based Toolbox for Standardized G-Ratio Analysis of Axon-Myelin Integrity. ASN Neuro. 2025;18(1):2603411. doi:10.1080/17590914.2025.2603411.
