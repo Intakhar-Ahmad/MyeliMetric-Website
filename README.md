@@ -36,11 +36,25 @@ Professional GitHub Pages website for **MyeliMetric-V2**.
 
 ## Standalone app download
 
+Do **not** put the large standalone Windows build directly in the Pages website repository. Upload it to **GitHub Releases** in the software repository.
+
+Recommended release asset name:
+
 `MyeliMetric_v2_Windows_Standalone.zip`
 
 The website's main download buttons point to:
 
 `https://github.com/Intakhar-Ahmad/NeuroMyelin-G-Ratio-Analysis-Toolkit/releases/latest`
+
+This means the website does not need to be edited whenever a newer release is uploaded.
+
+## Before publishing
+
+- Upload and test the final Windows standalone ZIP in GitHub Releases.
+- Confirm that `MyeliMetric.exe` works on a separate 64-bit Windows computer without Python installed.
+- Confirm the Word manual downloads correctly.
+- Confirm the example Excel files download correctly.
+- Check every page on desktop and mobile.
 
 ## Citation
 
